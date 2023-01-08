@@ -1,0 +1,13 @@
+<svg width="168" height="168" viewBox="0 0 168 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="8.5" y="128.5" width="151" height="15" fill="white" stroke="black"/>
+<circle cx="84" cy="55" r="51.5" fill="#FFFDCC" stroke="black"/>
+<circle cx="126" cy="150" r="17.5" fill="white" stroke="black"/>
+<circle cx="42" cy="150" r="17.5" fill="white" stroke="black"/>
+<circle cx="126" cy="150" r="11.5" fill="white" stroke="black"/>
+<circle cx="42" cy="150" r="11.5" fill="white" stroke="black"/>
+<mask id="path-7-inside-1_784_138" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M152 40H16V60C16 89.0275 36.6131 113.241 64 118.8V136H104V118.8C131.387 113.241 152 89.0275 152 60V40Z"/>
+</mask>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M152 40H16V60C16 89.0275 36.6131 113.241 64 118.8V136H104V118.8C131.387 113.241 152 89.0275 152 60V40Z" fill="white"/>
+<path d="M16 40V39H15V40H16ZM152 40H153V39H152V40ZM64 118.8H65V117.982L64.1989 117.82L64 118.8ZM64 136H63V137H64V136ZM104 136V137H105V136H104ZM104 118.8L103.801 117.82L103 117.982V118.8H104ZM16 41H152V39H16V41ZM17 60V40H15V60H17ZM64.1989 117.82C37.2689 112.353 17 88.5425 17 60H15C15 89.5125 35.9573 114.128 63.8011 119.78L64.1989 117.82ZM65 136V118.8H63V136H65ZM104 135H64V137H104V135ZM103 118.8V136H105V118.8H103ZM151 60C151 88.5425 130.731 112.353 103.801 117.82L104.199 119.78C132.043 114.128 153 89.5125 153 60H151ZM151 40V60H153V40H151Z" fill="black" mask="url(#path-7-inside-1_784_138)"/>
+</svg>
