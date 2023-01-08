@@ -1,64 +1,68 @@
 .education {
-    padding-top: 66px;
-    &__box {
+    margin: 64px 0;
+
+    &__content {
         position: relative;
         display: grid;
         grid-template-columns: 2fr 1fr;
         gap: 32px;
-    }
-    &__line {
-        position: relative;
-        background: url('../../images/background/college/Property\ 1=Колледж\ экономики.png') center center/cover no-repeat;
-        padding: 40px 0 0 40px;
-        &::before {
-            content: '';
-            position: absolute;
-            right: 40px;
-            width: 35px;
-            height: 35px;
-            background: url(../../images/educations/higher/Union.png)center center/cover no-repeat;
-        }
-        &::after {
-            content: '';
-            position: absolute;
-            bottom: 40px;
-            right: 40px;
-            width: 135px;
-            height: 135px;
-            background: url(../../images/educations/higher/Ellipse.png) center center/cover no-repeat;
-        }
-    }
-    &__lines {
-        background-color: #000;    
-    }
-    &__text {
-        font-weight: 800;
-        font-size: 55px;
-        line-height: 60px;
-        max-width: 580px;
-        margin: 0 0 21px 0;
-    }
-    &__descr {
-        font-weight: 400;
-        font-size: 22px;
-        line-height: 40px;
-        max-width: 552px;
-        margin-bottom: 68px;
-    }
-    &__items {
-        display: grid;
-        grid-template-columns: 552px 1fr;
-        align-items: flex-end;
-        padding: 0 0 40px 10px;
 
-    }
-    &__items {
-        display: flex;     
-    }
-    &__items-item {
-        margin-right: 30px;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 28px;
+        &-city {
+            position: relative;
+            background: url("../../images/background/Rectangle.svg"), url('../../images/background/college/Property 1=Колледж экономики.png') center center/cover no-repeat;
+            background-blend-mode: overlay;
+            padding: 40px;
+
+            &-share {
+                position: absolute;
+                right: 40px;
+                width: 35px;
+                height: 35px;
+            }
+
+            &::after {
+                content: url(../../images/educations/higher/Ellipse.png);
+                position: absolute;
+                bottom: 40px;
+                right: 40px;
+                width: 135px;
+                height: 135px;
+                background: center center/cover no-repeat;
+            }
+
+            .city {
+                &__title {
+                    font-weight: 800;
+                    font-size: 55px;
+                    line-height: 60px;
+                    max-width: 580px;
+                    margin: 0 0 21px 0;
+                }
+
+                &__descr {
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 40px;
+                    max-width: 552px;
+                    margin-bottom: 68px;
+                }
+
+                &__info {
+                    display: flex;
+                    margin-left: 20px;
+                    &-item {
+                        margin-right: 40px;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 28px;
+                    }
+                }
+            }
+        }
+
+        &-form {
+            background-color: #000;
+        }
+
     }
 }
