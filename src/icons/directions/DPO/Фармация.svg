@@ -1,0 +1,34 @@
+<svg width="168" height="168" viewBox="0 0 168 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="24" cy="24" r="15.5" fill="white" stroke="black"/>
+<circle cx="24" cy="104" r="15.5" fill="white" stroke="black"/>
+<circle cx="104" cy="104" r="15.5" fill="white" stroke="black"/>
+<circle cx="104" cy="24" r="15.5" fill="white" stroke="black"/>
+<circle cx="24" cy="64" r="15.5" fill="white" stroke="black"/>
+<circle cx="24" cy="144" r="15.5" fill="white" stroke="black"/>
+<circle cx="104" cy="144" r="15.5" fill="white" stroke="black"/>
+<circle cx="104" cy="64" r="15.5" fill="white" stroke="black"/>
+<circle cx="64" cy="24" r="15.5" fill="white" stroke="black"/>
+<circle cx="64" cy="104" r="15.5" fill="white" stroke="black"/>
+<circle cx="144" cy="104" r="15.5" fill="white" stroke="black"/>
+<circle cx="144" cy="24" r="15.5" fill="white" stroke="black"/>
+<circle cx="64" cy="64" r="15.5" fill="#FFCECE" stroke="black"/>
+<circle cx="64" cy="144" r="15.5" fill="white" stroke="black"/>
+<circle cx="144" cy="144" r="15.5" fill="white" stroke="black"/>
+<circle cx="144" cy="64" r="15.5" fill="white" stroke="black"/>
+<path d="M64 9V40" stroke="black"/>
+<path d="M64 49V80" stroke="black"/>
+<path d="M64 89V120" stroke="black"/>
+<path d="M64 128V159" stroke="black"/>
+<path d="M144 89V120" stroke="black"/>
+<path d="M144 9V40" stroke="black"/>
+<path d="M144 129V160" stroke="black"/>
+<path d="M144 49V80" stroke="black"/>
+<path d="M24 9V40" stroke="black"/>
+<path d="M24 49V80" stroke="black"/>
+<path d="M24 89V120" stroke="black"/>
+<path d="M24 128V159" stroke="black"/>
+<path d="M104 89V120" stroke="black"/>
+<path d="M104 9V40" stroke="black"/>
+<path d="M104 129V160" stroke="black"/>
+<path d="M104 49V80" stroke="black"/>
+</svg>
