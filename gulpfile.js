@@ -8,24 +8,10 @@ const imagemin = require('gulp-imagemin');
 const htmlmin = require('gulp-htmlmin');
 
 gulp.task('server', function() {
-
     browserSync({
-        server: {
-            baseDir: "src"
-        }
+        server: {baseDir: "dist"}
     });
-
     gulp.watch("src/*.html").on('change', browserSync.reload);
-});
-
-gulp.task('styles', function() {
-    return gulp.src("src/sass/**/*.+(scss|sass)")
-        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-        .pipe(rename({suffix: '.min', prefix: ''}))
-        .pipe(autoprefixer())
-        .pipe(cleanCSS({compatibility: 'ie8'}))
-        .pipe(gulp.dest("dist/css"))
-        .pipe(browserSync.stream());
 });
 
 gulp.task('watch', function() {
@@ -34,7 +20,17 @@ gulp.task('watch', function() {
     gulp.watch("src/js/**/*.js").on('change', gulp.parallel('scripts'));
     gulp.watch("src/fonts/**/*").on('all', gulp.parallel('fonts'));
     gulp.watch("src/icons/**/*").on('all', gulp.parallel('icons'));
-    gulp.watch("src/img/**/*").on('all', gulp.parallel('images'));
+    gulp.watch("src/images/**/*").on('all', gulp.parallel('images'));
+});
+
+gulp.task('styles', function() {
+    return gulp.src("src/sass/**/*.+(scss|sass)")
+        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(rename({suffix: '.min', prefix: ''}))
+        .pipe(autoprefixer())
+        .pipe(cleanCSS({compatibility: 'ie8'}))
+        .pipe(gulp.dest("dist/css/"))
+        .pipe(browserSync.stream());
 });
 
 gulp.task('html', function () {
@@ -62,10 +58,10 @@ gulp.task('icons', function () {
 });
 
 gulp.task('images', function () {
-    return gulp.src("src/img/**/*")
+    return gulp.src("src/images/**/*")
         .pipe(imagemin())
-        .pipe(gulp.dest("dist/img"))
+        .pipe(gulp.dest("dist/images"))
         .pipe(browserSync.stream());
 });
 
-gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts', 'fonts', 'icons', 'html', 'images'));
+gulp.task('default', gulp.parallel('server', 'watch', 'styles', 'scripts', 'fonts', 'icons', 'html', 'images'));
