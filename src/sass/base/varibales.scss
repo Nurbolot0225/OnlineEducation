@@ -3,21 +3,21 @@ $color-black: #000000;
 $color-copy-a4: #4A4A4A;
 $color-copy-df: #DFDFDE;
 
-$color-text-00: var($color-white);
-$color-text-01: var($color-black);
-$color-text-02: var($color-copy-a4);
+$color-text-00: $color-white;
+$color-text-01: $color-black;
+$color-text-02: $color-copy-a4;
 $color-text-03: #787878;
-$color-text-03: #A8A8A8;
+$color-text-04: #A8A8A8;
 
 $color-line-01: rgba(0, 0, 0, 0.12);
-$color-line-02: var($color-copy-df);
-$color-line-03: var($color-copy-a4);
+$color-line-02: $color-copy-df;
+$color-line-03: $color-copy-a4;
 
 $color-body: #F2F2F2;
 
-$color-el-00: var($color-white);
-$color-el-01: var($color-black);
+$color-el-00: $color-white;
+$color-el-01: $color-black;
 $color-el-02: #252525;
-$color-el-03: var($color-copy-df);
-$color-el-action: var($color-white);
-$color-el-super-action: var($color-white);
+$color-el-03: $color-copy-df;
+$color-el-action: $color-white;
+$color-el-super-action: $color-white;
