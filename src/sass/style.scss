@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Rubik:wght@400;500;700&display=swap');
+@import "base/varibales.scss";
 
 * {
     font-family: 'Inter', sans-serif;
-
+    box-sizing: border-box;
 } 
 
 .container {
@@ -10,4 +11,6 @@
     margin: 0 auto;
 }
 
+
 @import 'blocks/education'
+@import "blocks/_direction.scss";
