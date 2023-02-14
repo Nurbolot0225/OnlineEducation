@@ -1,0 +1,28 @@
+.diploma {
+    margin: 140px 0 130px 0;
+    &__between {
+        display: grid;
+        grid-template-columns: 680px 488px;
+        gap: 32px;
+        align-items: center;
+        &-wrapper {
+            h3 {
+                font-weight: 700;
+                font-size: 44px;
+                line-height: 51px;
+                color: #000000;
+                padding-bottom: 27px;
+            }
+            p {
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 40px;
+                color: #000000;
+                padding-bottom: 40px;
+            }
+            .wd-1 {
+                width: 590px;
+            }
+        }
+    }
+}
