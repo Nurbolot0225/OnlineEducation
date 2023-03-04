@@ -1,0 +1,15 @@
+.partners {
+    margin: 0 0 128px 0;
+    &__wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #DFDFDE;
+      border-top: 1px solid #DFDFDE;
+      padding:  55px 0 65px 0;
+      //display: grid;
+      //grid-template-columns: repeat(8, 160px);
+      //gap: 80px;
+    }
+
+}

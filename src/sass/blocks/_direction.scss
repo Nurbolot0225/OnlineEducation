@@ -58,7 +58,7 @@
                     background-repeat: no-repeat;
                     background-size: cover;
                     width: 384px;
-                    height: 248px;
+                    min-height: 248px;
                     padding: 24px 32px;
                     &-header {
                         z-index: 2 !important;
@@ -70,6 +70,7 @@
                         }
                         & ul {
                             padding-left: 20px;
+                            padding-bottom: 155px;
                             & li {
                                 line-height: 28px;
                             }
@@ -95,7 +96,42 @@
                         }
                     }
                 }
+                &__card-1 {
+                    background-image: url('../../images/background/Rectangle.svg'),
+                                      url("../../images/background/directions/юриспруденция.png");
+                }
+                &__card-2 {
+                    background-image: url('../../images/background/Rectangle.svg'),
+                                      url("../../images/background/directions/экономика.png");
+                }
+                &__card-3 {
+                    background-image: url('../../images/background/Rectangle.svg'),
+                                      url("../../images/background/directions/Журналистика.png");
+                }
+                &__card-4 {
+                    background-image: url('../../images/background/Rectangle.svg'),
+                                      url("../../images/background/directions/Медицинская оптика.png");
+                }
+                &__card-5 {
+                    background-image: url('../../images/background/Rectangle.svg'),
+                                      url("../../images/background/directions/реклама и связи с общественностью.png");
+                }
             }
+        }
+    }
+    &-link {
+        border: 1px solid #DFDFDE;
+        border-radius: 4px;
+        a{
+            display: block;
+            text-align: center;
+            letter-spacing: 0.17em;
+            text-transform: uppercase;
+            color: $color-black;
+            padding: 15px 0;
+            font-weight: 700;
+            font-size: 11px;
+            line-height: 22px;
         }
     }
 }
